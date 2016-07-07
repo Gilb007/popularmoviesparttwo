@@ -1,9 +1,11 @@
-package vlad.kolomysov.popularmoviesparttwo;
+package vlad.kolomysov.popularmoviesparttwo.ui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import vlad.kolomysov.popularmoviesparttwo.R;
+
+public class BrowseMoviesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
