@@ -5,7 +5,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.2'
-        classpath 'me.tatarka:gradle-retrolambda:3.2.0'
+        classpath "com.neenbedankt.gradle.plugins:android-apt:1.4"
     }
 }
 
@@ -14,4 +14,8 @@ allprojects {
         jcenter()
         maven { url 'https://dl.bintray.com/florent37/maven' }
     }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }
