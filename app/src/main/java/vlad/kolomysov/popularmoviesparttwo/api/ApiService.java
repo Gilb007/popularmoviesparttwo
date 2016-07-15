@@ -6,9 +6,9 @@ import retrofit.http.GET;
 import retrofit.http.Path;
 import retrofit.http.Query;
 import rx.Observable;
-import vlad.kolomysov.popularmoviesparttwo.api.movie.Movies;
-import vlad.kolomysov.popularmoviesparttwo.api.review.Reviews;
-import vlad.kolomysov.popularmoviesparttwo.api.trailer.Trailers;
+import vlad.kolomysov.popularmoviesparttwo.api.models.movie.Movies;
+import vlad.kolomysov.popularmoviesparttwo.api.models.review.Reviews;
+import vlad.kolomysov.popularmoviesparttwo.api.models.trailer.Trailers;
 
 /**
  * Copyright (C) Created by Vlad Kolomysov on 15.07.16.

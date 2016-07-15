@@ -1,4 +1,4 @@
-package vlad.kolomysov.popularmoviesparttwo.api.review;
+package vlad.kolomysov.popularmoviesparttwo.api.models.review;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -1,4 +1,4 @@
-package vlad.kolomysov.popularmoviesparttwo.api.movie;
+package vlad.kolomysov.popularmoviesparttwo.api.models.movie;
 
 import com.google.gson.annotations.SerializedName;
 

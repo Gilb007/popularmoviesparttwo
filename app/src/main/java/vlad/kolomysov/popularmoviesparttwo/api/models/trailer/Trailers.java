@@ -1,4 +1,4 @@
-package vlad.kolomysov.popularmoviesparttwo.api.trailer;
+package vlad.kolomysov.popularmoviesparttwo.api.models.trailer;
 
 import android.os.Parcel;
 import android.os.Parcelable;
