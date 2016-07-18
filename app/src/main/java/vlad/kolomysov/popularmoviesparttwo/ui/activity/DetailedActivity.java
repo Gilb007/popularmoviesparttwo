@@ -6,9 +6,14 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.bgirlogic.movies.R;
+
 import butterknife.ButterKnife;
 import vlad.kolomysov.popularmoviesparttwo.App;
-import vlad.kolomysov.popularmoviesparttwo.R;
+
+import vlad.kolomysov.popularmoviesparttwo.api.models.movie.Movie;
+import vlad.kolomysov.popularmoviesparttwo.ui.fragment.DetailedFragment;
+import vlad.kolomysov.popularmoviesparttwo.ui.fragment.MainFragment;
 import vlad.kolomysov.popularmoviesparttwo.utils.Utils;
 
 /**

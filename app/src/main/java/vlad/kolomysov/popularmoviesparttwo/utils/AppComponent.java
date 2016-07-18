@@ -4,6 +4,12 @@ import javax.inject.Singleton;
 
 import dagger.Component;
 import vlad.kolomysov.popularmoviesparttwo.App;
+import vlad.kolomysov.popularmoviesparttwo.ui.activity.DetailedActivity;
+import vlad.kolomysov.popularmoviesparttwo.ui.activity.MainActivity;
+import vlad.kolomysov.popularmoviesparttwo.ui.fragment.DetailedFragment;
+import vlad.kolomysov.popularmoviesparttwo.ui.fragment.MainFragment;
+import vlad.kolomysov.popularmoviesparttwo.ui.view.ReviewRowView;
+import vlad.kolomysov.popularmoviesparttwo.ui.view.TrailerRowView;
 
 /**
  * Copyright (C) Created by Vlad Kolomysov on 15.07.16.

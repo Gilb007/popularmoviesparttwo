@@ -7,7 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import vlad.kolomysov.popularmoviesparttwo.R;
+import com.bgirlogic.movies.R;
+
 
 /**
  * Copyright (C) Created by Vlad Kolomysov on 15.07.16.

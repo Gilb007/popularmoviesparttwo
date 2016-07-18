@@ -8,15 +8,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.bgirlogic.movies.App;
 import com.bgirlogic.movies.R;
-import com.bgirlogic.movies.api.models.movie.Movie;
-import com.bgirlogic.movies.common.Utils;
-import com.bgirlogic.movies.ui.activity.DetailedActivity;
-import com.bgirlogic.movies.ui.activity.MainActivity;
+
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
+
+import vlad.kolomysov.popularmoviesparttwo.App;
+import vlad.kolomysov.popularmoviesparttwo.api.models.movie.Movie;
+import vlad.kolomysov.popularmoviesparttwo.ui.activity.DetailedActivity;
+import vlad.kolomysov.popularmoviesparttwo.ui.activity.MainActivity;
+import vlad.kolomysov.popularmoviesparttwo.utils.Utils;
 
 /**
  * Created by Senpai on 12/21/15.

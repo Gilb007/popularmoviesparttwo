@@ -11,6 +11,7 @@ import vlad.kolomysov.popularmoviesparttwo.api.models.review.Review;
 import vlad.kolomysov.popularmoviesparttwo.api.models.review.Reviews;
 import vlad.kolomysov.popularmoviesparttwo.api.models.trailer.Trailer;
 import vlad.kolomysov.popularmoviesparttwo.api.models.trailer.Trailers;
+import vlad.kolomysov.popularmoviesparttwo.ui.view.DetailListView;
 
 /**
  * Copyright (C) Created by Vlad Kolomysov on 15.07.16.

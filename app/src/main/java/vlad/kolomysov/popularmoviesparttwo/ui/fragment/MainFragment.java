@@ -12,13 +12,20 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
+import com.bgirlogic.movies.R;
+
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import vlad.kolomysov.popularmoviesparttwo.App;
-import vlad.kolomysov.popularmoviesparttwo.R;
+
+import vlad.kolomysov.popularmoviesparttwo.api.models.movie.Movie;
+import vlad.kolomysov.popularmoviesparttwo.ui.SpaceItemDecoration;
+import vlad.kolomysov.popularmoviesparttwo.ui.StaggeredViewAdapter;
+import vlad.kolomysov.popularmoviesparttwo.ui.presenter.MainPresenterImp;
+import vlad.kolomysov.popularmoviesparttwo.ui.view.MovieListView;
 import vlad.kolomysov.popularmoviesparttwo.utils.Utils;
 
 /**

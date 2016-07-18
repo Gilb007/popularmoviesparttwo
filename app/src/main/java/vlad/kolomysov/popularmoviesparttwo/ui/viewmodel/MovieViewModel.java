@@ -1,6 +1,7 @@
 package vlad.kolomysov.popularmoviesparttwo.ui.viewmodel;
 
-import com.bgirlogic.movies.api.models.movie.Movie;
+
+import vlad.kolomysov.popularmoviesparttwo.api.models.movie.Movie;
 
 /**
  * Created by Senpai on 1/6/16.

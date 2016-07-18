@@ -1,9 +1,11 @@
 package vlad.kolomysov.popularmoviesparttwo.ui.view;
 
-import com.bgirlogic.movies.api.models.review.Review;
-import com.bgirlogic.movies.api.models.trailer.Trailer;
+
 
 import java.util.List;
+
+import vlad.kolomysov.popularmoviesparttwo.api.models.review.Review;
+import vlad.kolomysov.popularmoviesparttwo.api.models.trailer.Trailer;
 
 /**
  * Created by Senpai on 1/6/16.

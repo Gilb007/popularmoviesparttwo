@@ -8,8 +8,10 @@ import java.util.List;
 import rx.Observer;
 import vlad.kolomysov.popularmoviesparttwo.App;
 import vlad.kolomysov.popularmoviesparttwo.api.RetrofitAdapter;
+import vlad.kolomysov.popularmoviesparttwo.api.models.movie.Movie;
 import vlad.kolomysov.popularmoviesparttwo.api.models.movie.Movies;
 import vlad.kolomysov.popularmoviesparttwo.data.MoviesContract;
+import vlad.kolomysov.popularmoviesparttwo.ui.view.MovieListView;
 
 /**
  * Copyright (C) Created by Vlad Kolomysov on 15.07.16.

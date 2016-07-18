@@ -8,9 +8,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.View;
 
+import com.bgirlogic.movies.R;
+
 import vlad.kolomysov.popularmoviesparttwo.App;
-import vlad.kolomysov.popularmoviesparttwo.R;
+
 import vlad.kolomysov.popularmoviesparttwo.api.models.movie.Movie;
+import vlad.kolomysov.popularmoviesparttwo.ui.fragment.DetailedFragment;
+import vlad.kolomysov.popularmoviesparttwo.ui.fragment.MainFragment;
 import vlad.kolomysov.popularmoviesparttwo.utils.Utils;
 
 /**

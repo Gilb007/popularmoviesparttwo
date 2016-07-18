@@ -15,6 +15,9 @@ import retrofit.RxJavaCallAdapterFactory;
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
+import vlad.kolomysov.popularmoviesparttwo.api.models.movie.Movies;
+import vlad.kolomysov.popularmoviesparttwo.api.models.review.Reviews;
+import vlad.kolomysov.popularmoviesparttwo.api.models.trailer.Trailers;
 
 /**
  * Copyright (C) Created by Vlad Kolomysov on 15.07.16.

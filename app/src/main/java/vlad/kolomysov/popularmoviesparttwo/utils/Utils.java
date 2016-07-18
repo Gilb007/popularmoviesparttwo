@@ -11,12 +11,12 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.text.TextUtils;
 
+import com.bgirlogic.movies.R;
 import com.jakewharton.rxbinding.internal.Preconditions;
 
 import javax.inject.Singleton;
 
 import vlad.kolomysov.popularmoviesparttwo.App;
-import vlad.kolomysov.popularmoviesparttwo.R;
 
 @Singleton
 public class Utils

@@ -18,6 +18,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bgirlogic.movies.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -27,10 +28,15 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import vlad.kolomysov.popularmoviesparttwo.App;
-import vlad.kolomysov.popularmoviesparttwo.R;
+
+import vlad.kolomysov.popularmoviesparttwo.api.models.movie.Movie;
 import vlad.kolomysov.popularmoviesparttwo.api.models.review.Review;
 import vlad.kolomysov.popularmoviesparttwo.api.models.trailer.Trailer;
 import vlad.kolomysov.popularmoviesparttwo.data.MoviesContract;
+import vlad.kolomysov.popularmoviesparttwo.ui.presenter.DetailedPresenterImp;
+import vlad.kolomysov.popularmoviesparttwo.ui.view.DetailListView;
+import vlad.kolomysov.popularmoviesparttwo.ui.view.ReviewRowView;
+import vlad.kolomysov.popularmoviesparttwo.ui.view.TrailerRowView;
 import vlad.kolomysov.popularmoviesparttwo.utils.Utils;
 
 /**
@@ -264,5 +270,7 @@ public class DetailedFragment extends Fragment implements DetailListView {
         getActivity().getContentResolver().insert(MoviesContract.MovieEntry.CONTENT_URI,
                 contentValues);
     }
+
+
 }
 

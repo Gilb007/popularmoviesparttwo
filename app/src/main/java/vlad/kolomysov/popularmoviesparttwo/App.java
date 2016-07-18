@@ -4,6 +4,10 @@ import android.app.Application;
 
 import com.facebook.stetho.Stetho;
 
+import vlad.kolomysov.popularmoviesparttwo.utils.AppComponent;
+import vlad.kolomysov.popularmoviesparttwo.utils.AppModule;
+import vlad.kolomysov.popularmoviesparttwo.utils.DaggerAppComponent;
+
 /**
  * Copyright (C) Created by Vlad Kolomysov on 15.07.16.
  * All rights reserved. United Financial Capital Bank, Moscow
