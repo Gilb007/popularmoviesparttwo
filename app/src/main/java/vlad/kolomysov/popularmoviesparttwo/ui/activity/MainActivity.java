@@ -41,14 +41,17 @@ public class MainActivity extends AppCompatActivity {
 
 
     public static Intent newIntentForDetailedFragment(Context context, Movie movie) {
+
         Intent intent = new Intent(context, MainActivity.class);
         intent.putExtra(DetailedActivity.PARAM_MOVIE, movie);
         return intent;
+
     }
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_base);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);

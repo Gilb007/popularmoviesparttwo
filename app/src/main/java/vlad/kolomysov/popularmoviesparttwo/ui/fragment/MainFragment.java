@@ -198,5 +198,6 @@ public class MainFragment extends Fragment implements MovieListView {
     public void remove(Movie movie) {
 
     }
+
 }
 
